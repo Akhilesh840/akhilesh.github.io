@@ -6,10 +6,10 @@
 const myImage = document.querySelector("img");
 myImage.addEventListener("click", () => {
     const mySrc = myImage.getAttribute("src");
-    if (mySrc === "D:first website/oimmain.webp") {
-        myImage.setAttribute("src", "D:first website/pexels-souvenirpixels-414612.jpg");
+    if (mySrc === "oimmain.webp") {
+        myImage.setAttribute("src", "pexels-souvenirpixels-414612.jpg");
     } else {
-        myImage.setAttribute("src", "D:first website/oimmain.webp");
+        myImage.setAttribute("src", "oimmain.webp");
     }
 });
 let myButton = document.querySelector("button");
